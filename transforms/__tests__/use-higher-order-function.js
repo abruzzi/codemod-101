@@ -11,7 +11,7 @@ describe("Use Higher Order Function ", () => {
     convertTitle(title, ConvertType.UPPER);
     `,
     `
-    convertTitle(title, (input: string) => input.toUpperCase());
+    convertTitle(title, input => input.toUpperCase());
     `,
     "Change function signature - lower case"
   );
